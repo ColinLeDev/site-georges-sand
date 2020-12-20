@@ -1,0 +1,49 @@
+.sidenav {
+    height: 100%; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #737272; 
+    overflow-x: hidden;
+    padding-top: 60px; 
+    transition: 1s; 
+  }  
+  
+  /* Les liens dans le Menu Latéral */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000080;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* Passage de souris sur un lien */
+  .sidenav a:hover {
+    color: #3d3dff;
+  }
+  
+  /* Position du bouton de fermeture */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Au cas où le site est vu sur un appareil trop petit */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  #LatMenuBouton {
+      position: fixed;
+      left: 25px;
+      top: 25px;
+      height: 75px;
+      width: 75px;
+  }
